@@ -2,11 +2,11 @@ Summary:	A General environment for the treatment of Discrete Problems
 Summary(pl):	¦rodowisko do rozwi±zywania problemów dyskretnych
 Name:		getdp
 Version:	1.0.0
-Source0:	http://geuz.org/getdp/src/%{name}-%{version}-source.tgz
-# Source0-md5:	8256357866085afaa274863ad4c1e71f
 Release:	1
 License:	GPL
 Group:		Applications/Engineering
+Source0:	http://geuz.org/getdp/src/%{name}-%{version}-source.tgz
+# Source0-md5:	8256357866085afaa274863ad4c1e71f
 URL:		http://www.geuz.org/getdp/
 BuildRequires:	gcc-g77
 BuildRequires:	gsl-devel
@@ -29,19 +29,18 @@ problems.
 %description -l pl
 GetDP jest naukowym ¶rodowiskiem do numerycznego rozwi±zywania równañ,
 otwartym na ró¿ne fizyczne problemy(elektromagnetyczne, termiczne,
-mechaniczne, ...), podobnie jak na metody numeryczne (metoda
-skoñczonych elementów, metody wbudowane, ..). Mo¿e rozwi±zywaæ
-problemy w ró¿nych wymiarach(1D, 2D, 2D asymetryczne lub 3D), i
-czasach(statyczne, tranzakcyjne lub harmoniczne). G³ówn± w³asno¶ci±
+mechaniczne...), podobnie jak na metody numeryczne (metoda elementów
+skoñczonych, metody ca³kowania...). Mo¿e rozwi±zywaæ problemy w ró¿nej
+liczbie wymiarów (1D, 2D, 2D asymetryczne lub 3D), i ró¿nych stanach
+czasu (statyczne, transakcyjne lub harmoniczne). G³ówn± w³asno¶ci±
 GetDP jest blisko¶æ pomiêdzy organizacj± danych definiuj±cych problem
-dyskretny(zapisane przez u¿ytkownika w plikach tekstowych) i
+dyskretny (zapisane przez u¿ytkownika w plikach tekstowych) i
 symbolicznymi wyra¿eniami matematycznymi tego problemu.
 
-Zainstaluj GetDP je¿eli potrzebujesz solvera skoñczonych elementów dla
-problemów fizycznych.
+Warto zainstalowaæ GetDP je¿eli potrzebujemy narzêdzie do
+obliczania elementów skoñczonych dla problemów fizycznych.
 
 %prep
-
 %setup -q
 
 %build
@@ -54,8 +53,8 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1,%{_infodir}}
 
 install -m 755 bin/getdp $RPM_BUILD_ROOT%{_bindir}/getdp
-install doc/getdp.1 $RPM_BUILD_ROOT%{_mandir}/man1/
-install doc/texinfo/getdp.info* $RPM_BUILD_ROOT%{_infodir}/
+install doc/getdp.1 $RPM_BUILD_ROOT%{_mandir}/man1
+install doc/texinfo/getdp.info* $RPM_BUILD_ROOT%{_infodir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
