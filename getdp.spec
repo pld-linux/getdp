@@ -1,12 +1,12 @@
 Summary:	A General environment for the treatment of Discrete Problems
 Summary(pl):	¦rodowisko do rozwi±zywania problemów dyskretnych
 Name:		getdp
-Version:	1.0.0
+Version:	1.0.1
 Release:	1
 License:	GPL
 Group:		Applications/Engineering
 Source0:	http://geuz.org/getdp/src/%{name}-%{version}-source.tgz
-# Source0-md5:	8256357866085afaa274863ad4c1e71f
+# Source0-md5:	5ed9b143d2205a7bbe5a13c91065593c
 URL:		http://www.geuz.org/getdp/
 BuildRequires:	gcc-g77
 BuildRequires:	gsl-devel
