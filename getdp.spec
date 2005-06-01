@@ -10,6 +10,7 @@ Source0:	http://geuz.org/getdp/src/%{name}-%{version}-source.tgz
 URL:		http://www.geuz.org/getdp/
 BuildRequires:	gcc-g77
 BuildRequires:	gsl-devel
+BuildRequires:	texinfo
 Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
