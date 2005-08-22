@@ -53,7 +53,7 @@ obliczania elementów skoñczonych dla problemów fizycznych.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1,%{_infodir}}
 
-install -m 755 bin/getdp $RPM_BUILD_ROOT%{_bindir}/getdp
+install bin/getdp $RPM_BUILD_ROOT%{_bindir}/getdp
 install doc/getdp.1 $RPM_BUILD_ROOT%{_mandir}/man1
 install doc/texinfo/getdp.info* $RPM_BUILD_ROOT%{_infodir}
 
