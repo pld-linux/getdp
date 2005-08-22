@@ -3,7 +3,7 @@ Summary(pl):	¦rodowisko do rozwi±zywania problemów dyskretnych
 Name:		getdp
 Version:	1.1.0
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		Applications/Engineering
 Source0:	http://geuz.org/getdp/src/%{name}-%{version}-source.tgz
 # Source0-md5:	cceb5f66c3d2889048fd5f35d178171e
@@ -62,7 +62,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc doc/VERSIONS doc/FAQ doc/CREDITS demos
+%doc doc/VERSIONS doc/FAQ doc/CREDITS demos README
 %attr(755,root,root) %{_bindir}/%{name}
 %{_mandir}/man1/%{name}*
 %{_infodir}/%{name}*
