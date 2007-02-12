@@ -1,5 +1,5 @@
 Summary:	A General environment for the treatment of Discrete Problems
-Summary(pl):	¦rodowisko do rozwi±zywania problemów dyskretnych
+Summary(pl.UTF-8):   Åšrodowisko do rozwiÄ…zywania problemÃ³w dyskretnych
 Name:		getdp
 Version:	1.2.1
 Release:	1
@@ -27,19 +27,19 @@ files) and the symbolic mathematical expressions of these problems.
 Install GetDP if you need a finite element solver for multiphysic
 problems.
 
-%description -l pl
-GetDP jest naukowym ¶rodowiskiem do numerycznego rozwi±zywania równañ,
-otwartym na ró¿ne fizyczne problemy(elektromagnetyczne, termiczne,
-mechaniczne...), podobnie jak na metody numeryczne (metoda elementów
-skoñczonych, metody ca³kowania...). Mo¿e rozwi±zywaæ problemy w ró¿nej
-liczbie wymiarów (1D, 2D, 2D asymetryczne lub 3D), i ró¿nych stanach
-czasu (statyczne, transakcyjne lub harmoniczne). G³ówn± w³asno¶ci±
-GetDP jest blisko¶æ pomiêdzy organizacj± danych definiuj±cych problem
-dyskretny (zapisane przez u¿ytkownika w plikach tekstowych) i
-symbolicznymi wyra¿eniami matematycznymi tego problemu.
+%description -l pl.UTF-8
+GetDP jest naukowym Å›rodowiskiem do numerycznego rozwiÄ…zywania rÃ³wnaÅ„,
+otwartym na rÃ³Å¼ne fizyczne problemy(elektromagnetyczne, termiczne,
+mechaniczne...), podobnie jak na metody numeryczne (metoda elementÃ³w
+skoÅ„czonych, metody caÅ‚kowania...). MoÅ¼e rozwiÄ…zywaÄ‡ problemy w rÃ³Å¼nej
+liczbie wymiarÃ³w (1D, 2D, 2D asymetryczne lub 3D), i rÃ³Å¼nych stanach
+czasu (statyczne, transakcyjne lub harmoniczne). GÅ‚Ã³wnÄ… wÅ‚asnoÅ›ciÄ…
+GetDP jest bliskoÅ›Ä‡ pomiÄ™dzy organizacjÄ… danych definiujÄ…cych problem
+dyskretny (zapisane przez uÅ¼ytkownika w plikach tekstowych) i
+symbolicznymi wyraÅ¼eniami matematycznymi tego problemu.
 
-Warto zainstalowaæ GetDP je¿eli potrzebujemy narzêdzie do
-obliczania elementów skoñczonych dla problemów fizycznych.
+Warto zainstalowaÄ‡ GetDP jeÅ¼eli potrzebujemy narzÄ™dzie do
+obliczania elementÃ³w skoÅ„czonych dla problemÃ³w fizycznych.
 
 %prep
 %setup -q
