@@ -1,5 +1,5 @@
 Summary:	A General environment for the treatment of Discrete Problems
-Summary(pl.UTF-8):   Środowisko do rozwiązywania problemów dyskretnych
+Summary(pl.UTF-8):	Środowisko do rozwiązywania problemów dyskretnych
 Name:		getdp
 Version:	1.2.1
 Release:	1
