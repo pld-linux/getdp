@@ -1,0 +1,11 @@
+--- getdp-1.2.1/Makefile.orig	2007-12-21 12:08:40.567221583 +0100
++++ getdp-1.2.1/Makefile	2007-12-21 12:08:53.065314919 +0100
+@@ -38,7 +38,7 @@
+ compile: variables initialtag
+ 	@for i in ${GETDP_DIRS}; do (cd $$i && ${MAKE}); done
+ 
+-link: variables
++link: variables compile
+ 	${LINKER} -o bin/getdp ${GETDP_LIBS}
+ 
+ blackbox: variables initialtag
