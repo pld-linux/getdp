@@ -1,3 +1,6 @@
+# TODO:
+#	- use system arpack
+#
 Summary:	A General environment for the treatment of Discrete Problems
 Summary(pl.UTF-8):	Środowisko do rozwiązywania problemów dyskretnych
 Name:		getdp
@@ -8,6 +11,7 @@ Group:		Applications/Engineering
 Source0:	http://geuz.org/getdp/src/%{name}-%{version}-source.tgz
 # Source0-md5:	5f5d7cdaeaeea3dcd15ba900e9f7e896
 Patch0:		%{name}-make-jN.patch
+Patch1:		%{name}-no_etime.patch
 URL:		http://www.geuz.org/getdp/
 BuildRequires:	gcc-g77
 BuildRequires:	gsl-devel
@@ -45,6 +49,7 @@ obliczania elementów skończonych dla problemów fizycznych.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %build
 %configure
