@@ -1,0 +1,10 @@
+--- getdp-1.2.1/Arpack/second.f.orig	2007-12-21 13:17:24.438099224 +0100
++++ getdp-1.2.1/Arpack/second.f	2007-12-21 13:17:53.433675767 +0100
+@@ -19,7 +19,7 @@
+ *     ..
+ *     .. External Functions ..
+       REAL               ETIME
+-      EXTERNAL           ETIME
++      INTRINSIC          ETIME
+ *     ..
+ *     .. Executable Statements ..
