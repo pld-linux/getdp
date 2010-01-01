@@ -16,7 +16,7 @@ URL:		http://www.geuz.org/getdp/
 BuildRequires:	gcc-g77
 BuildRequires:	gsl-devel
 BuildRequires:	texinfo
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 GetDP is a scientific software environment for the numerical solution
